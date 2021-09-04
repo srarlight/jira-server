@@ -48,6 +48,11 @@
     "author": {
       "via": "articles",
       "model": "writer"
+    },
+    "users_permissions_permission": {
+      "plugin": "users-permissions",
+      "model": "permission",
+      "via": "articles"
     }
   }
 }
